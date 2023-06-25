@@ -53,8 +53,7 @@ a {
 }
 
 a:hover {
-    /* color: #A4A69C; */
-    background-color: #A4A69C;
+    color: #A4A69C;
 }
 
 .navbar {
