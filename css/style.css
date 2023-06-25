@@ -14,7 +14,7 @@ body {
     background-color: #F2F2F2;
 }
 
-h1, h2, p {
+h1, h2, h3, p {
     color: #232625;
     font-weight: bold;
 }
@@ -91,6 +91,9 @@ a:hover{
     color: #A4A69C;
 }
 
+.navbar-toggler{
+    border: none;
+}
 
 
 /* FOOTER */
@@ -227,7 +230,6 @@ footer {
 
 table {
     width: 80%;
-    margin-left: 125px;
     border-collapse: collapse;
     margin: 0 0 70px 125px; 
 }
@@ -311,7 +313,7 @@ p {
 
 /* inicia responsive */
 
-/* 1er breakpoint */
+/* pequeño arreglo */
 
 @media (width < 1211px){
     .redes-img{
@@ -320,6 +322,7 @@ p {
     }
 }
 
+/* 1er breakpoint */
 @media (width < 1024px){
     /* header home*/
 
@@ -376,8 +379,51 @@ p {
 
 /* 2do breakpoint */
 @media (width < 768px){
-    .navbar{
-        flex-direction: column;
+    /* destacados home */
+    
+    .info-productos h2{
+        font-size: 1.2rem;
     }
+
+    .info-productos a{
+        font-size: 1rem;
+    }
+
+    /* redes home */
+
+    .redes-img{
+        width: 200px;
+        height: 400px;
+    }
+
+    /* promos main */
+    .image-size{
+        width: 400px;
+        height: 500px;
+    }
+
+    .info-promos h2{
+        font-size: 1.6rem;
+    }
+
+    /* FAQ main */
+    table{
+        margin: 0 0 80px 80px;
+    }
+
+    /* contacto main */
+    .contacto-title{
+        font-size: 2.2rem;
+    }
+
+    .contacto-parrafo{
+        padding: 0 15px 0 15px;
+    }
+
+    .div-container{
+        margin: 60px 60px 100px 80px;
+    }
+
+
 }
 
