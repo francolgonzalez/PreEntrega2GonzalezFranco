@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chakra Petch', sans-serif;
+    /* font-family: 'Chango', cursive; */
+    /* font-family: 'Sarpanch', sans-serif; */
+}
+
+body {
+    height: 100vh;
+    background-color: #F2F2F2;
+}
+
+h1, h2, p {
+    color: #232625;
+}
+p {
+    font-weight: bold;
+}
+
+
+/* HEADER HOME*/
+
+.header-img {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frase {
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 100px 50px 25px 100px;
+}
+
+
+/* NAV */
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #232625;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a:hover {
+    /* color: #A4A69C; */
+    background-color: #A4A69C;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom-style:solid;
+    border-bottom-width: 0.12rem;
+    border-color: #232625;
+    padding-bottom: 15px;
+    position: fixed;
+    background-color: #F2F2F2; 
+}
+
+.logo a {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 60px;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+    padding-right: 100px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #F2F2F2;
+    border-top-style: solid;
+    border-top-width: 0.12rem;
+    border-color: #232625;
+    padding-top: 15px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon-footer {
+    display: flex;
+    margin: 20px;
+}
+
+.icon-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* MAIN HOME */
+
+.dest-title {
+    padding: 60px 0 25px 0;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.container-destacados {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.img-destacados {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info-productos {
+    line-height: 40px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.redes-title {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.redes-grandes {
+    text-align: center;
+    padding: 25px 0 60px 0;
+}
+
+.redes-img {
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+
+/* MAIN PRODUCTOS */
+
+.productos-title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.item {
+    padding: 60px 0 20px 18px;
+}
+
+.img-productos {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* MAIN PROMOS */
+
+.promos-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0 20px 0;
+    object-fit: cover;
+}
+
+.image-size {
+    width: 600px;
+    height: 600px;
+}
+
+.info-promos {
+    line-height: 40px;
+    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/* FAQ MAIN */
+
+.faq-title {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+table {
+    width: 80%;
+    margin-left: 125px;
+    border-collapse: collapse;
+    margin: 0 0 70px 125px; 
+}
+
+tr :hover {
+    background-color: #A4A69C;
+}
+
+tr, td {
+    height: 70px;
+    padding: 5px 16px 0px 16px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+p {
+    padding-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+/* CONTACTO MAIN */
+
+.contacto-title{
+    padding: 100px 0 10px 0;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.contacto-parrafo{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.div-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 50px 25%;
+    border-radius: 10px;
+    padding: 70px 50px 70px 50px;
+    display: flex;
+    justify-content: center;
+}
+.div-son {
+    margin: 0 50px;
+}
+.input-container {
+    padding: 20px 0 20px 0;
+}
+.input-textarea {
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.input-area-container {
+    margin-top: 15px;
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.textarea-desing {
+    margin-top: 20px;
+    width: 250px;
+    height: 198px;
+}
+
+.input-design {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    padding: 10px;
+    font-weight: bold;
+    resize: none;
+    outline: none;
+}
+
+
+/* inicia responsive */
+
+/* 1er breakpoint */
+
+@media (width < 1211px){
+    .redes-img{
+        width: 300px;
+        height: 500px;
+    }
+}
+
+@media (width < 1024px){
+    .container-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* 2do breakpoint */
+
+@media (width < 768px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+
