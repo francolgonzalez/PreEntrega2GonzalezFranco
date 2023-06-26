@@ -200,6 +200,11 @@ footer {
 
 /* MAIN PROMOS */
 
+.promos-title{
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
 .promos-images {
     display: flex;
     align-items: center;
@@ -217,7 +222,7 @@ footer {
     line-height: 40px;
     font-size: 0.9rem;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 
@@ -378,6 +383,7 @@ p {
 
 
 /* 2do breakpoint */
+ 
 @media (width < 768px){
     /* destacados home */
     
@@ -423,7 +429,81 @@ p {
     .div-container{
         margin: 60px 60px 100px 80px;
     }
+}
+/* 3er breakpoint */
 
+@media (width < 600px){
+    /* header home */
+    .frase h1{
+        font-size: 1rem;
+    }
 
+    /* destacados home */
+    .container-destacados{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* redes home */
+
+    .redes-img{
+        width: 150px;
+    }
+
+    /* productos main */
+    .container-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .img-productos{
+        width: 200px;
+    }
+
+    .info-productos h2{
+        font-size: 0.9rem;
+    }
+
+    .info-productos a{
+        font-size: 0.9rem;
+    }
+
+    /* promos main */
+    .info-promos h2{
+        font-size: 1.4rem;
+    }
+
+    .image-size{
+        width: 400px;
+        height: 400px;
+    }
+
+    /* contacto main */
+    .contacto-parrafo{
+        font-size: 0.9rem;
+        padding: 0 50px;
+    }
+
+    .div-container{
+        width: 500px;
+        padding: 25px 25px;
+        margin: 40px;
+    }
+
+    .div-son{
+        margin: 25px;
+    }
+
+    .input-area-container{
+        width: 80px;
+    }
+
+    .textarea-desing{
+        width: 150px;
+    }
+
+    .input-design{
+        width: 200px;
+        padding: 10px 2;
+    }
+    
 }
 
