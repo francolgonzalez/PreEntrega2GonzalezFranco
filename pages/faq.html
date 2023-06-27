@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stanley Zona Sur - Venta de prodcutos stanley</title>
+    <title>Stanley Zona Sur - FAQ</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="../img/favicon/stanley8961.jpg" type="image/x-icon">
     
@@ -22,7 +22,9 @@
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <!-- btn hamburguesa -->
-            <span class="navbar-toggler-icon"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="ms-auto mb-2 mb-lg-0 links">
@@ -49,38 +51,78 @@
     <!-- ends header -->
     <main>
         <H1 class="faq-title">Preguntas Frecuentes</H1>
-        <table border=""> 
-            <tr>
-                <td>¿Que metodos de pago aceptan?
-                    <p>Aceptamos Efectivo, Mercado Pago o Transferencia bancaria.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>¿Como puedo ver el estado de mi envio?
-                    <p>Una vez realizada la compra, nos escribis por Whatsapp y te enviamos el link de seguimiento del envio.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>¿Que beneficios tiene registrarse en la página?
-                    <p>Registrandote en la página vas a disponer de avisos de nuevos ingresos y descuentos especiales que te seran comunicados por mail.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>¿Como puedo contactarme con ustedes?
-                    <p>Podes contactarte con nosotros por Whatsapp o por cualquiera de nuestras redes sociales.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>¿Como puedo pedir un reembolso de un producto?
-                    <p>Te comunicas con nosotros vía Whatsapp, nos mostras tu problema y elegís entre la devolución del dinero o un cambio de producto.</p>
-                </td>
-            </tr>
-            <tr>
-                <td>¿De que manera puedo cuidar mis productos?
-                    <p>Nosotros recomendamos que curen los termos antes de comenzar a usarlos, dejandolo reposar por 5 minutos con agua tibia y lavandolo con detergente y una esponja suave. </p>
-                </td>
-            </tr>
-        </table>
+        <div class="accordion mx-2 mb-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    ¿Que metodos de pago aceptan?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Aceptamos Efectivo, Mercado Pago o Transferencia bancaria.</p> 
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    ¿Como puedo ver el estado de mi envio?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Una vez realizada la compra, nos escribis por Whatsapp y te enviamos el link de seguimiento del envio.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    ¿Que beneficios tiene registrarse en la página?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Registrandote en la página vas a disponer de avisos de nuevos ingresos y descuentos especiales que te seran comunicados por mail.</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                    ¿Como puedo contactarme con ustedes?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Podes contactarte con nosotros por Whatsapp o por cualquiera de nuestras redes sociales.</p> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                    ¿Como puedo pedir un reembolso de un producto?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Te comunicas con nosotros vía Whatsapp, nos mostras tu problema y elegís entre la devolución del dinero o un cambio de producto.</p> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                    ¿De que manera puedo cuidar mis productos?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Nosotros recomendamos que curen los termos antes de comenzar a usarlos, dejandolo reposar por 5 minutos con agua tibia y lavandolo con detergente y una esponja suave.</p> 
+                  </div>
+                </div>
+              </div>
+          </div>
     </main>
     <!-- ends main -->
     <footer>

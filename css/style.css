@@ -44,7 +44,9 @@ a:hover{
     justify-content: center;
     font-weight: bold;
     font-size: 1rem;
-    padding: 100px 50px 25px 100px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 
@@ -64,6 +66,7 @@ a:hover{
     border-color: #232625;
     padding-bottom: 15px;
     position: fixed;
+    z-index: 2;
     background-color: #F2F2F2; 
 }
 
@@ -137,17 +140,16 @@ footer {
     font-size: 1.8rem;
 }
 
-.container-destacados {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+.carousel{
+    width: 50vw;
+    margin: 0 auto;
 }
 
-.img-destacados {
-    height: 300px;
-    width: 300px;
+.carousel img{
     border-radius: 10px;
+    object-fit: cover;
 }
+
 
 .info-productos {
     line-height: 40px;
@@ -216,6 +218,7 @@ footer {
 .image-size {
     width: 600px;
     height: 600px;
+    border-radius: 10px;
 }
 
 .info-promos {
@@ -233,28 +236,22 @@ footer {
     padding: 100px 0 30px 0;
 }
 
-table {
-    width: 80%;
-    border-collapse: collapse;
-    margin: 0 0 70px 125px; 
-}
-
-tr :hover {
-    background-color: #A4A69C;
-}
-
-tr, td {
-    height: 70px;
-    padding: 5px 16px 0px 16px;
-    font-size: 1rem;
-    font-weight: bold;
-
-}
-
 p {
-    padding-top: 20px;
+    margin: 0;
     font-size: 0.9rem;
     font-weight: 600;
+}
+
+.accordion-item{
+    border: none;
+}
+
+.accordion-button{
+    color: #232625;
+}
+
+.accordiom{
+    background-color: white;
 }
 
 
@@ -332,22 +329,9 @@ p {
     /* header home*/
 
     .frase{
-        text-align: center;
         font-size: 1rem;
     }
 
-
-    /* destacados home */
-
-    .container-destacados{
-        grid-template-columns: repeat(2, 1fr);
-        text-align: center;
-    }
-
-    .img-destacados{
-        margin-bottom: 20px;
-    }
-    
 
     /* productos page */
     
@@ -385,16 +369,24 @@ p {
 /* 2do breakpoint */
  
 @media (width < 768px){
-    /* destacados home */
+    /* nav */
+    .links{
+        display: block;
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .logo a{
+        padding: 0;
+    }  
     
-    .info-productos h2{
-        font-size: 1.2rem;
-    }
+    /* carousel */
 
-    .info-productos a{
-        font-size: 1rem;
+    .carousel{
+        width: 80%;
     }
-
+    
     /* redes home */
 
     .redes-img{
@@ -410,11 +402,6 @@ p {
 
     .info-promos h2{
         font-size: 1.6rem;
-    }
-
-    /* FAQ main */
-    table{
-        margin: 0 auto;
     }
 
     /* contacto main */
@@ -439,10 +426,6 @@ p {
         font-size: 1rem;
     }
 
-    /* destacados home */
-    .container-destacados{
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     /* redes home */
 
@@ -517,14 +500,10 @@ p {
         font-size: 1.2rem;
     }
 
-    .container-destacados{
-        text-align: center;
-        align-items: center;
-    }
-
     .redes-title{
         font-size: 1.2rem;
     }
+
 
     /* footer */
     .footer-info h3{
@@ -569,12 +548,6 @@ p {
         padding-bottom: 50px;
     }
 
-    /* FAQ main */
-    table{
-        margin: 0 auto;
-        margin-bottom: 60px;
-    }
-
     /* contacto main */
     .contacto-title{
         font-size: 1.8rem;
@@ -594,6 +567,45 @@ p {
     .input-design{
         font-size: 0.9rem;
         width: 150px;
+    }
+}
+
+@media (width < 320px){
+    
+    /* header main */
+    .frase h1{
+        font-size: 0.7rem;
+    }
+
+    /* redes main */
+    .redes-img{
+        width: 90px;
+    }
+
+    /* contacto main */
+    .contacto-title{
+        font-size: 1.5rem;
+    }
+
+    .contacto-parrafo{
+        padding: 0 40px;
+    }
+
+    .div-container{
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        margin-top: 10px;
+    }
+
+    .input-design{
+        font-size: 0.7rem;
+        width: 100px;
+        padding: 0;
+    }
+
+    .textarea-desing{
+        height: 152px;
     }
 }
 
