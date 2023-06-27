@@ -387,6 +387,11 @@ p {
         width: 80%;
     }
     
+    /* header */
+    .frase h1{
+        text-align: center;
+    }
+    
     /* redes home */
 
     .redes-img{
