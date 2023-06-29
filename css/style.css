@@ -90,8 +90,20 @@ a:hover{
     color: #A4A69C;
 }
 
-.logo a:hover{
-    color: #A4A69C;
+.links li a{
+    transition: transform 0.3s ease-in-out; 
+}
+
+.links li a:hover{
+    transform: scale(1.1);
+}
+
+.logo-effect{
+    transition: transform 0.3s ease-in-out;
+}
+  
+.logo-effect:hover {
+    transform: scale(1.3);
 }
 
 .navbar-toggler{
