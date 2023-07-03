@@ -1,0 +1,24 @@
+/* FAQ MAIN */
+
+.faq-title{
+    text-align: center;
+    padding: $spacing-6 0 $spacing-4 0;
+}
+
+p{
+    margin: 0;
+    font-size: $text-md;
+    font-weight: $text-semibold;
+}
+
+.accordion-item{
+    border: none;
+}
+
+.accordion-button{
+    color: $secondary-color;
+}
+
+.accordiom{
+    background-color: white;
+}

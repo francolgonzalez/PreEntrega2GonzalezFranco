@@ -1,0 +1,32 @@
+/* MAIN PRODUCTOS */
+
+.productos-title {
+    text-align: center;
+    padding-top: $spacing-6;
+}
+
+.container-items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.item {
+    padding: $spacing-5 0 $spacing-3 0px;
+    margin: 0 auto;
+}
+
+.info-productos {
+    line-height: 40px;
+    text-align: center;
+    h2 {
+        font-size: $text-xl;
+        padding-top: $spacing-1;
+    }
+}
+
+.img-productos {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: $br-2;
+}

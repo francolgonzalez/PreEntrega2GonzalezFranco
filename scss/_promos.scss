@@ -1,0 +1,27 @@
+/* MAIN PROMOS */
+
+.promos-title {
+    text-align: center;
+    padding: $spacing-6 0 $spacing-3 0;
+}
+
+.promos-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: $spacing-2 0 $spacing-3 0;
+    object-fit: cover;
+}
+
+.image-size {
+    width: 600px;
+    height: 600px;
+    border-radius: $br-2;
+}
+
+.info-promos {
+    line-height: 40px;
+    font-size: $text-md;
+    text-align: center;
+    padding-top: $spacing-4;
+}

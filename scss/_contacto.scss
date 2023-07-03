@@ -1,0 +1,56 @@
+/* CONTACTO MAIN */
+
+.contacto-title {
+    padding: $spacing-6 0 $spacing-1 0;
+    text-align: center;
+    font-size: $text-4xl;
+}
+
+.contacto-parrafo {
+    text-align: center;
+    font-size: $text-md;
+    font-weight: $text-semibold;
+}
+
+.div-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: $spacing-4 25% ;
+    border-radius: $br-2;
+    padding: $spacing-5 $spacing-4 $spacing-5 $spacing-4;
+    display: flex;
+    justify-content: center;
+}
+.div-son {
+    margin: 0 $spacing-4;
+}
+.input-container {
+    padding: $spacing-3 0 $spacing-3 0;
+}
+.input-textarea {
+    border: none;
+    font-size: $text-md;
+    font-weight: $text-bold;
+}
+.input-area-container {
+    margin-top: $spacing-2;
+    background-color: $main-color;
+    border: none;
+    border-radius: $br-1;
+    padding: $spacing-1;
+}
+
+.textarea-desing {
+    margin-top: $spacing-3;
+    width: 250px;
+    height: 198px;
+}
+
+.input-design {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+    padding: $spacing-1;
+    font-weight: $text-bold;
+    resize: none;
+    outline: none;
+}
