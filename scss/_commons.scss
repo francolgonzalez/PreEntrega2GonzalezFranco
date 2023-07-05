@@ -6,7 +6,9 @@
 
 body {
     height: 100vh;
-    background-color: $main-color;
+    // background-color: $main-color;
+    background: rgb(222,224,211);
+    background: linear-gradient(90deg, rgba(222,224,211,1) 0%, rgba(242,242,242,1) 100%);
 }
 
 h1, h2, h3, p {
@@ -34,21 +36,23 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: $spacing-3;
+    // padding-top: $spacing-3;
     border-bottom-style:solid;
     border-bottom-width: 0.12rem;
     border-color: $secondary-color;
-    padding-bottom: $spacing-2;
-    position: fixed;
+    // padding-bottom: $spacing-2;
+    // position: fixed;
     z-index: 2;
-    background-color: $main-color; 
+    // background-color: $main-color;
+    background: rgb(222,224,211);
+    background: linear-gradient(90deg, rgba(222,224,211,1) 0%, rgba(242,242,242,1) 100%);
 }
 
-.logo {
-    a {
-        padding-left: $spacing-5;
-    }
-} 
+// .logo {
+//     a {
+//         padding-left: $spacing-5;
+//     }
+// } 
 
 .links {
     color: $secondary-color;
@@ -57,7 +61,7 @@ a {
     list-style: none;
     display: flex;
     gap: 2rem;
-    padding-right: $spacing-6;
+    // padding-right: $spacing-6;
 }
 
 .links {
@@ -95,7 +99,9 @@ a {
 /* FOOTER */
 
 footer {
-    background-color: $main-color;
+    // background-color: $main-color;
+    background: rgb(222,224,211);
+    background: linear-gradient(90deg, rgba(222,224,211,1) 0%, rgba(242,242,242,1) 100%);
     border-top-style: solid;
     border-top-width: 0.12rem;
     border-color: $secondary-color;

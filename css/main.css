@@ -7,7 +7,8 @@
 
 body {
   height: 100vh;
-  background-color: #F2F2F2;
+  background: rgb(222, 224, 211);
+  background: linear-gradient(90deg, rgb(222, 224, 211) 0%, rgb(242, 242, 242) 100%);
 }
 
 h1, h2, h3, p {
@@ -34,18 +35,12 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
   border-bottom-style: solid;
   border-bottom-width: 0.12rem;
   border-color: #232625;
-  padding-bottom: 15px;
-  position: fixed;
   z-index: 2;
-  background-color: #F2F2F2;
-}
-
-.logo a {
-  padding-left: 60px;
+  background: rgb(222, 224, 211);
+  background: linear-gradient(90deg, rgb(222, 224, 211) 0%, rgb(242, 242, 242) 100%);
 }
 
 .links {
@@ -55,7 +50,6 @@ a:hover {
   list-style: none;
   display: flex;
   gap: 2rem;
-  padding-right: 100px;
 }
 
 .links a:hover {
@@ -83,7 +77,8 @@ a:hover {
 
 /* FOOTER */
 footer {
-  background-color: #F2F2F2;
+  background: rgb(222, 224, 211);
+  background: linear-gradient(90deg, rgb(222, 224, 211) 0%, rgb(242, 242, 242) 100%);
   border-top-style: solid;
   border-top-width: 0.12rem;
   border-color: #232625;
@@ -124,7 +119,7 @@ footer {
   justify-content: center;
   font-weight: 700;
   font-size: 1rem;
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 auto;
 }
@@ -168,7 +163,7 @@ footer {
 /* MAIN PRODUCTOS */
 .productos-title {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 
 .container-items {
@@ -200,7 +195,7 @@ footer {
 /* MAIN PROMOS */
 .promos-title {
   text-align: center;
-  padding: 100px 0 20px 0;
+  padding: 10px 0 10px 0;
 }
 
 .promos-images {
@@ -227,7 +222,7 @@ footer {
 /* FAQ MAIN */
 .faq-title {
   text-align: center;
-  padding: 100px 0 40px 0;
+  padding: 10px 0 40px 0;
 }
 
 p {
@@ -250,7 +245,7 @@ p {
 
 /* CONTACTO MAIN */
 .contacto-title {
-  padding: 100px 0 10px 0;
+  padding: 10px 0 10px 0;
   text-align: center;
   font-size: 2.4rem;
 }
