@@ -189,16 +189,23 @@ footer {
 .productos-title {
   text-align: center;
   padding-top: 10px;
+  margin-bottom: 40px;
 }
 
 .container-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  row-gap: 60px;
+  column-gap: 10px;
+  margin: 0 10px;
+  margin-bottom: 60px;
 }
 
 .item {
-  padding: 60px 0 20px 0px;
   margin: 0 auto;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .info-productos {
@@ -207,7 +214,7 @@ footer {
 }
 .info-productos h2 {
   font-size: 1.4rem;
-  padding-top: 10px;
+  margin-bottom: 0;
 }
 
 .img-productos {
@@ -215,27 +222,6 @@ footer {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
-}
-
-.container-img-productos {
-  position: relative;
-}
-
-.container-img-productos::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  opacity: 0;
-  transition: opacity 0.6s ease;
-  border-radius: 10px;
-}
-
-.container-img-productos:hover::before {
-  opacity: 1;
 }
 
 .button {
