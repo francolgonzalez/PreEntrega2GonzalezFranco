@@ -52,8 +52,33 @@ a:hover {
   gap: 2rem;
 }
 
-.links a:hover {
-  color: #A4A69C;
+.nav-item {
+  font-size: 1rem;
+  color: #232625;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+}
+
+.nav-item:focus:after,
+.nav-item:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.nav-item:after {
+  content: "";
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #232625;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
 }
 
 .links li a {
@@ -190,6 +215,85 @@ footer {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.container-img-productos {
+  position: relative;
+}
+
+.container-img-productos::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  border-radius: 10px;
+}
+
+.container-img-productos:hover::before {
+  opacity: 1;
+}
+
+.button {
+  position: relative;
+  width: 300px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 1px solid #232625;
+  background-color: #232625;
+}
+
+.button, .button__icon, .button__text {
+  transition: all 0.3s;
+}
+
+.button .button__text {
+  transform: translateX(80px);
+  color: #fff;
+  font-weight: 600;
+}
+
+.button .button__icon {
+  position: absolute;
+  height: 100%;
+  background-color: #232625;
+  display: flex;
+  right: 0;
+}
+
+.button__icon {
+  width: 50px;
+  height: 40px;
+  align-items: center;
+}
+
+.button .svg {
+  width: 30px;
+  stroke: #fff;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background: #232625;
+}
+
+.button:hover .button__text {
+  color: transparent;
+}
+
+.button:hover .button__icon {
+  width: 290px;
+  transform: translateX(0);
+}
+
+.button:active .button__icon {
+  background-color: #232625;
 }
 
 /* MAIN PROMOS */

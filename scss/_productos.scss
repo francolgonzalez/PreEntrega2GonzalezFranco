@@ -30,3 +30,85 @@
     object-fit: cover;
     border-radius: $br-2;
 }
+
+.container-img-productos{
+    position: relative;
+  }
+  
+  .container-img-productos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0; 
+    transition: opacity 0.6s ease;
+    border-radius: $br-2;
+  }
+
+  .container-img-productos:hover::before {
+    opacity: 1;
+  }
+
+  .button {
+    position: relative;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid $secondary-color;
+    background-color: $secondary-color;
+  }
+  
+  .button, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button .button__text {
+    transform: translateX(80px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .button .button__icon {
+    position: absolute;
+    height: 100%;
+    background-color: $secondary-color;
+    display: flex;
+    right: 0;
+  }
+
+  .button__icon {
+    width: 50px;
+    height: 40px;
+    align-items: center;
+  }
+  
+  .button .svg {
+    width: 30px;
+    stroke: #fff;
+    margin: 0 auto;
+  }
+  
+  .button:hover {
+    background: $secondary-color;
+  }
+  
+  .button:hover .button__text {
+    color: transparent;
+  }
+  
+  .button:hover .button__icon {
+    width: 290px;
+    transform: translateX(0);
+  }
+  
+  .button:active .button__icon {
+    background-color: $secondary-color;
+  }
+  
+  
+  

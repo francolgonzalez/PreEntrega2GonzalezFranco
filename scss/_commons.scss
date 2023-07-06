@@ -6,7 +6,6 @@
 
 body {
     height: 100vh;
-    // background-color: $main-color;
     background: rgb(222,224,211);
     background: linear-gradient(90deg, rgba(222,224,211,1) 0%, rgba(242,242,242,1) 100%);
 }
@@ -36,23 +35,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // padding-top: $spacing-3;
     border-bottom-style:solid;
     border-bottom-width: 0.12rem;
     border-color: $secondary-color;
-    // padding-bottom: $spacing-2;
-    // position: fixed;
     z-index: 2;
-    // background-color: $main-color;
     background: rgb(222,224,211);
     background: linear-gradient(90deg, rgba(222,224,211,1) 0%, rgba(242,242,242,1) 100%);
 }
-
-// .logo {
-//     a {
-//         padding-left: $spacing-5;
-//     }
-// } 
 
 .links {
     color: $secondary-color;
@@ -61,16 +50,36 @@ a {
     list-style: none;
     display: flex;
     gap: 2rem;
-    // padding-right: $spacing-6;
 }
 
-.links {
-    a { 
-        &:hover {
-            color: $third-color;
-        }
-    }
-}
+.nav-item {
+    font-size: $text-md;
+    color: $secondary-color;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+  }
+ 
+  .nav-item:focus:after,
+  .nav-item:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .nav-item:after {
+    content: "";
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: $secondary-color;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
 
 .links {
     li {
