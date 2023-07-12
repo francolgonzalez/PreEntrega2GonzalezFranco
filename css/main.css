@@ -393,6 +393,50 @@ p {
   outline: none;
 }
 
+.container-img-error404 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.img-error404 {
+  width: 500px;
+  height: 300px;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+.text-error404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  margin: 0 auto;
+}
+.text-error404 h1 {
+  font-size: 3rem;
+}
+.text-error404 p {
+  font-size: 1.2rem;
+  padding: 0 100px;
+  width: 70vw;
+  text-align: center;
+}
+
+.btn-inicio {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  background-color: #232625;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.btn-inicio a {
+  color: #F2F2F2;
+}
+
 /* inicia responsive */
 /* pequeño arreglo */
 @media (width < 1211px) {
