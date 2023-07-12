@@ -2,8 +2,20 @@
 
 .promos-title {
     text-align: center;
-    padding: $spacing-1 0 $spacing-1 0;
+    padding-top: $spacing-1;
+    margin-top: $spacing-2;
+    margin-bottom: $spacing-2;
 }
+
+.promos-parrafo {
+    text-align: center;
+    margin: 0 $spacing-6;
+    margin-bottom: $spacing-4;
+  
+    p {
+      font-size: $text-lg;
+    }
+  }
 
 .promos-images {
     display: flex;

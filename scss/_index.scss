@@ -16,6 +16,30 @@
     margin: 0 auto;
 }
 
+.text-bienvenida {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin: $spacing-6;
+    padding: $spacing-4 $spacing-6;
+    border-radius: $br-1;
+    box-shadow: 30px 30px 30px 10px $secondary-color;
+    h2 {
+        font-size: 2.5rem;
+        color: $secondary-color;
+        margin-bottom: $spacing-4;
+    }
+    p {
+        font-size: $text-lg;
+        color: $secondary-color;
+    }
+}
+
+.text-item {
+    margin-bottom: $spacing-3;
+}
+
 /* MAIN HOME */
 
 .dest-title {

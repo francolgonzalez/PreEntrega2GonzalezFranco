@@ -3,7 +3,18 @@
 .productos-title {
     text-align: center;
     padding-top: $spacing-1;
-    margin-bottom: $spacing-4;
+    margin-top: $spacing-2;
+    margin-bottom: $spacing-2;
+}
+
+.productos-parrafo {
+  text-align: center;
+  margin: 0 $spacing-6;
+  margin-bottom: $spacing-4;
+
+  p {
+    font-size: $text-lg;
+  }
 }
 
 .container-items {

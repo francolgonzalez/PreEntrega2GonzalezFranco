@@ -2,7 +2,9 @@
 
 .faq-title{
     text-align: center;
-    padding: $spacing-1 0 $spacing-4 0;
+    padding-top: $spacing-1;
+    margin-top: $spacing-2;
+    margin-bottom: $spacing-4;
 }
 
 p{
@@ -13,12 +15,25 @@ p{
 
 .accordion-item{
     border: none;
+    button {
+        font-size: $text-lg;
+    }
 }
 
 .accordion-button{
     color: $secondary-color;
+    text-transform: uppercase;
 }
 
 .accordiom{
     background-color: white;
+}
+
+.faq-parrafo {
+    text-align: center;
+    margin: 0 $spacing-6;
+    margin-bottom: $spacing-4;
+    p {
+      font-size: $text-lg;
+    }
 }

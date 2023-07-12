@@ -149,6 +149,30 @@ footer {
   margin: 0 auto;
 }
 
+.text-bienvenida {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: white;
+  margin: 100px;
+  padding: 40px 100px;
+  border-radius: 5px;
+  box-shadow: 30px 30px 30px 10px #232625;
+}
+.text-bienvenida h2 {
+  font-size: 2.5rem;
+  color: #232625;
+  margin-bottom: 40px;
+}
+.text-bienvenida p {
+  font-size: 1.2rem;
+  color: #232625;
+}
+
+.text-item {
+  margin-bottom: 20px;
+}
+
 /* MAIN HOME */
 .dest-title {
   padding: 60px 0 20px 0;
@@ -189,7 +213,17 @@ footer {
 .productos-title {
   text-align: center;
   padding-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.productos-parrafo {
+  text-align: center;
+  margin: 0 100px;
   margin-bottom: 40px;
+}
+.productos-parrafo p {
+  font-size: 1.2rem;
 }
 
 .container-items {
@@ -285,7 +319,18 @@ footer {
 /* MAIN PROMOS */
 .promos-title {
   text-align: center;
-  padding: 10px 0 10px 0;
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.promos-parrafo {
+  text-align: center;
+  margin: 0 100px;
+  margin-bottom: 40px;
+}
+.promos-parrafo p {
+  font-size: 1.2rem;
 }
 
 .promos-images {
@@ -312,7 +357,9 @@ footer {
 /* FAQ MAIN */
 .faq-title {
   text-align: center;
-  padding: 10px 0 40px 0;
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -324,13 +371,26 @@ p {
 .accordion-item {
   border: none;
 }
+.accordion-item button {
+  font-size: 1.2rem;
+}
 
 .accordion-button {
   color: #232625;
+  text-transform: uppercase;
 }
 
 .accordiom {
   background-color: white;
+}
+
+.faq-parrafo {
+  text-align: center;
+  margin: 0 100px;
+  margin-bottom: 40px;
+}
+.faq-parrafo p {
+  font-size: 1.2rem;
 }
 
 /* CONTACTO MAIN */
