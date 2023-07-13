@@ -7,6 +7,10 @@
         width: 300px;
         height: 500px;
     }
+
+    .container-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* 1er breakpoint */
@@ -16,6 +20,11 @@
 
     .frase {
         font-size: $text-md;
+    }
+
+    .header-img {
+        object-fit: cover;
+        overflow: hidden;
     }
 
 
@@ -43,6 +52,12 @@
         margin-bottom: $spacing-3;
     }
 
+    // faq
+    .faq-parrafo {
+        p {
+        font-size: $text-md;
+        }
+    }
 
     /* contacto page */
     .div-container {
@@ -60,19 +75,22 @@
  
 @media (width < 768px){
     
-    /* destacados home */
-    
-    .info-productos {
-        h2 {
-            font-size: $text-lg;
-        }
-    } 
+    // nav
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
 
-    .info-productos { 
-        a {
-            font-size: $text-md;
-        }
-    } 
+    ul{
+        padding-left: 0;
+    }
+
+    .navbar-toggler{
+        color: $secondary-color;
+    }
+
     /* redes home */
 
     .redes-img {
@@ -83,12 +101,12 @@
     /* promos main */
     .image-size {
         width: 400px;
-        height: 500px;
+        height: 400px;
     }
 
     .info-promos { 
         h2 {
-            font-size: $text-xxl;
+            font-size: $text-xl;
         }
     }   
     
@@ -110,6 +128,26 @@
 
 @media (width < 600px) {
     
+    // nav
+    ul{
+        padding-left: 0;
+    }
+
+    // texto bienvenida home
+    .text-bienvenida {
+        display: none;
+    }
+    /* destacados home */
+    .dest-title {
+        font-size: $text-xxl;
+    }
+
+    // footer
+    .footer-info {
+        font-size: sm;
+        text-align: center;
+    }
+
     /* header home */
     
     .frase { 
@@ -120,6 +158,9 @@
 
 
     /* redes home */
+    .redes-title {
+        font-size: $text-xxl; 
+    }
 
     .redes-img {
         width: 150px;
@@ -130,9 +171,29 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .img-productos {
-        width: 200px;
+    .item {
+        width: 250px;
     }
+
+    .img-productos {
+        width: 150px;
+    }
+
+    .button {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    .button:hover .button-icon {
+        width: 190px;
+    }
+   
+    .button .button-text {
+        transform: none;
+        width: 150px;
+        font-size: $text-sm;
+    }
+
 
     .info-productos { 
         h2 {
@@ -156,6 +217,19 @@
         height: 400px;
     }
 
+    // faq
+    .accordion-item {
+        button{
+            font-size: $text-sm;
+        }
+    }
+
+    .accordion-body {
+        p {
+            font-size: $text-xs;
+        }
+    }
+
     /* contacto main */
     .contacto-parrafo {
         font-size: $text-md;
@@ -173,10 +247,6 @@
         margin: $spacing-3;
     }
 
-    .input-area-container {
-        width: 80px;
-    }
-
     .textarea-desing {
         width: 150px;
     }
@@ -184,6 +254,10 @@
     .input-design {
         width: 200px;
         padding: $spacing-1;
+    }
+
+    .btn-enviar {
+        width: 200px;
     }
 }
     
@@ -222,7 +296,7 @@
     }
 
     .img-productos {
-        width: 250px;
+        width: 200px;
     }
 
     .item {
@@ -249,6 +323,16 @@
         padding-bottom: $spacing-4;
     }
 
+    // faq
+    .faq-parrafo{
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: $spacing-3;
+        p{
+        font-size: $text-sm;
+        }
+    }
+
     /* contacto main */
     .contacto-title {
         font-size: $text-xxl;
@@ -269,20 +353,48 @@
         font-size: $text-sm;
         width: 150px;
     }
+
+    .btn-enviar {
+        width: 150px;
+    }
 }
 
 @media (width < 320px){
     
+    // nav
+    .nav-link {
+        font-size: $text-xs;
+    }
+    
     /* header main */
-    .frase {
-        h1 {
-            font-size: $text-xs;
+    .header-frase {
+        width: 200px;
+        h1{
+            font-size: $text-md;
         }
+    }
+
+    .btn-home {
+        width: 150px;
+        font-size: $text-xs; 
     }
 
     /* redes main */
     .redes-img {
         width: 90px;
+    }
+
+    // faq
+    .accordion {
+        width: 300px;
+        margin: $spacing-1;
+    }
+
+    .faq-parrafo {
+        width: 200px;
+        p {
+            font-size: $text-xs;
+        }
     }
 
     /* contacto main */
@@ -309,5 +421,9 @@
 
     .textarea-desing {
         height: 152px;
+    }
+
+    .btn-enviar {
+        width: 100px;
     }
 }

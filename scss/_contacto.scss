@@ -26,23 +26,16 @@
 .input-container {
     padding: $spacing-3 0 $spacing-3 0;
 }
-.input-textarea {
-    border: none;
-    font-size: $text-md;
-    font-weight: $text-bold;
-}
-.input-area-container {
-    margin-top: $spacing-2;
-    background-color: $main-color;
-    border: none;
-    border-radius: $br-1;
-    padding: $spacing-1;
+
+.btn-enviar {
+    @extend .btn;
+    width: 250px;
 }
 
 .textarea-desing {
     margin-top: $spacing-3;
     width: 250px;
-    height: 198px;
+    height: 219px;
 }
 
 .input-design {

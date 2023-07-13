@@ -30,15 +30,7 @@
     }
 }
 
-.btn-inicio {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    background-color: $secondary-color;
-    padding: $spacing-1;
-    border-radius: $br-2;
+.btn-404 {
+    @extend .btn;
     margin-top: $spacing-5;
-    a{
-    color: $main-color;
-    }
 }

@@ -1,19 +1,33 @@
 /* HEADER HOME*/
 
-.header-img {
-    display:flex;
-    align-items: center;
-    justify-content: center;
+.container-header {
+    position: relative;
+    display: inline-block;
 }
 
-.frase {
-    display:flex;
-    justify-content: center;
-    font-weight: $text-bold;
-    font-size: $text-md;
-    padding-top: $spacing-3;
-    padding-bottom: $spacing-3;
-    margin: 0 auto;
+.header-frase {
+  position: absolute;
+  top: 30%;
+  left: 4%;
+  width: 310px;
+  background-color: $main-color;
+  color: $secondary-color;
+  padding: $spacing-3;
+  border-radius: $br-1;
+  z-index: 2;
+  box-shadow: 0 0 30px 10px $secondary-color;
+  h1 {
+    font-size: $text-3xl;
+  }
+}
+
+.header-img {
+    width: 100vw
+}
+
+.btn-home {
+    @extend .btn;
+    width: 270px;
 }
 
 .text-bienvenida {
@@ -25,6 +39,11 @@
     padding: $spacing-4 $spacing-6;
     border-radius: $br-1;
     box-shadow: 30px 30px 30px 10px $secondary-color;
+    &:hover {
+        transform: translate(40px);
+        transition: all 2s;
+        box-shadow: 0 0 30px 10px $secondary-color;
+    }
     h2 {
         font-size: 2.5rem;
         color: $secondary-color;
@@ -51,12 +70,16 @@
 .carousel {
     width: 50vw;
     margin: 0 auto;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
 }
 
 .carousel {
     img{
         border-radius: $br-2;
         object-fit: cover;
+        filter: brightness(1.1);
+        mix-blend-mode: multiply;
     }
 } 
 
@@ -69,6 +92,9 @@
 .redes-grandes {
     text-align: center;
     padding: $spacing-3 0 $spacing-5 0;
+    a {
+        text-decoration: none;
+    }
 }
 
 .redes-img {
@@ -77,4 +103,9 @@
     object-fit: cover;
     border-radius: $br-2;
     gap: 20px;
+    &:hover {
+        transform: scale(0.9);
+        transition: all 0.5s;
+        box-shadow: 0 0 20px 5px $secondary-color;
+    }
 }

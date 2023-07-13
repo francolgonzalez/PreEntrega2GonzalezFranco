@@ -1,0 +1,88 @@
+// extends
+
+.btn {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    background-color: $secondary-color;
+    padding: $spacing-1;
+    border-radius: $br-2;
+    font-weight: $text-bold;
+    text-decoration: none;
+    color: $main-color;
+    &:hover {
+        background-color: transparent;
+        color: $secondary-color;
+        border: solid 1px $secondary-color;
+        transition: all 0.8s;    
+    }
+}
+
+// mixins
+
+@mixin animations ($name, $duration, $fillmode) {
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-fill-mode: $fillmode;
+}
+
+
+// header
+.header-img {
+    @include animations(zoom-fade, 3s, forwards)
+}
+
+.header-frase {
+    @include animations(entrada, 3s, forwards)
+}
+
+
+// productos
+.productos-title {
+    @include animations(zoom-fade, 2s, forwards)
+}
+
+.container-items {
+    @include animations(scaledown, 1.5s, forwards)
+}
+
+
+// promos
+.promos-title {
+    @include animations(zoom-fade, 1s, forwards)
+}
+
+.promos-images {
+    @include animations(scaledown, 2s, forwards)
+}
+
+.info-promos {
+    @include animations(scaledown, 1.5s, forwards)
+}
+
+.faq-title {
+    @include animations(zoom-fade, 1s, forwards)
+}
+
+.accordion {
+    @include animations(scaledown, 1.2s, forwards)
+}
+
+.faq-parrafo {
+    @include animations(zoom-fade, 2s, forwards)
+}
+
+.contacto-title {
+    @include animations(zoom-fade, 1s, forwards)
+}
+
+.contacto-parrafo {
+    @include animations(zoom-fade, 1.5s, forwards)
+}
+
+.div-container {
+    @include animations(scaledown, 2s, forwards)
+}
+
+
+

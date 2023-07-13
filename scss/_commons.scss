@@ -5,6 +5,7 @@
 }
 
 body {
+    width: 100vw;
     height: 100vh;
     background: rgb(222,224,211);
     background: linear-gradient(90deg, rgba(222,224,211,1) 0%, rgba(242,242,242,1) 100%);
@@ -15,23 +16,12 @@ h1, h2, h3, p {
     font-weight: $text-bold;
 }
 
-a {
-    color: $secondary-color;
-    font-size: $text-lg;
-    font-weight: $text-bold;
-    text-decoration: none;
-    &:hover {
-        color: $third-color;
-    }
-}
 
 /* NAV */
 
 .navbar {
-    width: 100%;
-    height: auto;
+    width: 100vw;
     max-width: 100vw;
-    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,5 +128,15 @@ footer {
 .icon-images{ 
     li{
         list-style: none;
+    }
+    a {
+        color: $secondary-color;
+        font-size: $text-lg;
+        font-weight: $text-bold;
+        text-decoration: none;
+        &:hover {
+            color: $third-color;
+            transition: all 1s;
+        }
     }
 } 
