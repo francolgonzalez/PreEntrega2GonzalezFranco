@@ -4,4 +4,4 @@ Hey there! en este repositorio van a poder ver un poco de mi trabajo, como escri
 
 link repo: https://github.com/francolgonzalez/PreEntrega3GonzalezFranco
 
-link deployment: 
+link deployment: https://francolgonzalez.github.io/PreEntrega3GonzalezFranco/
