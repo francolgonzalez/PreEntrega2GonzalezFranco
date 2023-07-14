@@ -68,6 +68,20 @@
         height: 220px;
     }
 
+    // pagina error 404
+    .text-error404 {
+        h1 {
+            font-size: $text-3xl;
+        }
+        p {
+            font-size: $text-md;
+        }
+    }
+
+    .btn-404 {
+        margin-top: $spacing-4;
+    }
+
 }
 
 
@@ -122,6 +136,17 @@
     .div-container {
         margin: 0 auto;
         margin-bottom: $spacing-5;
+    }
+
+    // pagina error 404
+    .text-error404 {
+        p {
+            padding: 0 $spacing-3;
+        }
+    }
+    
+    .btn-404 {
+        margin-top: $spacing-3;
     }
 }
 /* 3er breakpoint */
@@ -258,6 +283,22 @@
 
     .btn-enviar {
         width: 200px;
+    }
+
+    // pagina error 404
+    
+    .text-error404 {
+        h1 {
+            font-size: $text-xl;
+        }
+        p {
+            padding: 0 $spacing-1;
+            width: 80vw;
+        }
+    }
+    
+    .btn-404 {
+        margin-top: $spacing-3;
     }
 }
     
@@ -425,5 +466,20 @@
 
     .btn-enviar {
         width: 100px;
+    }
+
+    // pagina error 404
+    .img-error404{
+        width: 400px;
+        height: 200px;
+    }
+    
+    .text-error404 {
+        h1 {
+            text-align: center;
+        }
+        p {
+            width: 90vw;
+        }
     }
 }

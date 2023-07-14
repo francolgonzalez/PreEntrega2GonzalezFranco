@@ -678,6 +678,15 @@ p {
   .textarea-desing {
     height: 220px;
   }
+  .text-error404 h1 {
+    font-size: 2.2rem;
+  }
+  .text-error404 p {
+    font-size: 1rem;
+  }
+  .btn-404 {
+    margin-top: 40px;
+  }
 }
 /* 2do breakpoint */
 @media (width < 768px) {
@@ -716,6 +725,12 @@ p {
   .div-container {
     margin: 0 auto;
     margin-bottom: 60px;
+  }
+  .text-error404 p {
+    padding: 0 20px;
+  }
+  .btn-404 {
+    margin-top: 20px;
   }
 }
 /* 3er breakpoint */
@@ -810,6 +825,16 @@ p {
   }
   .btn-enviar {
     width: 200px;
+  }
+  .text-error404 h1 {
+    font-size: 1.4rem;
+  }
+  .text-error404 p {
+    padding: 0 10px;
+    width: 80vw;
+  }
+  .btn-404 {
+    margin-top: 20px;
   }
 }
 /* 4to breakpoint */
@@ -935,6 +960,16 @@ p {
   }
   .btn-enviar {
     width: 100px;
+  }
+  .img-error404 {
+    width: 400px;
+    height: 200px;
+  }
+  .text-error404 h1 {
+    text-align: center;
+  }
+  .text-error404 p {
+    width: 90vw;
   }
 }
 
