@@ -387,6 +387,7 @@ footer {
   align-items: center;
   border: 1px solid #232625;
   background-color: #232625;
+  text-decoration: none;
 }
 
 .button, .button-icon, .button-text {
