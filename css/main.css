@@ -252,6 +252,9 @@ footer {
 .header-img {
   width: 100vw;
 }
+.header-img img {
+  width: 100vw;
+}
 
 .btn-home {
   width: 270px;
@@ -696,9 +699,13 @@ p {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+    width: 100vw;
   }
   ul {
     padding-left: 0;
+  }
+  .links {
+    gap: 1.4rem;
   }
   .navbar-toggler {
     color: #232625;
@@ -738,6 +745,16 @@ p {
 @media (width < 600px) {
   ul {
     padding-left: 0;
+  }
+  .header-frase {
+    width: 200px;
+  }
+  .header-frase h1 {
+    font-size: 1.2rem;
+  }
+  .btn-home {
+    width: 160px;
+    font-size: 0.8rem;
   }
   .text-bienvenida {
     display: none;
@@ -840,6 +857,22 @@ p {
 }
 /* 4to breakpoint */
 @media (width < 480px) {
+  .links a {
+    font-size: 0.8rem;
+  }
+  .header-frase {
+    width: 180px;
+    padding: 10px;
+  }
+  .header-frase h1 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .btn-home {
+    width: 140px;
+    font-size: 0.7rem;
+    margin: 0 auto;
+  }
   /* destacados home */
   .dest-title {
     font-size: 1.2rem;
@@ -915,14 +948,15 @@ p {
   }
   /* header main */
   .header-frase {
-    width: 200px;
+    width: 120px;
   }
   .header-frase h1 {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   .btn-home {
-    width: 150px;
+    width: 100px;
     font-size: 0.7rem;
+    text-align: center;
   }
   /* redes main */
   .redes-img {

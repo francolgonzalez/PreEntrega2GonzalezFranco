@@ -95,15 +95,21 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
+        width: 100vw;
     }
 
     ul{
         padding-left: 0;
     }
 
+    .links {
+        gap: 1.4rem;
+    }
+
     .navbar-toggler{
         color: $secondary-color;
     }
+
 
     /* redes home */
 
@@ -158,10 +164,28 @@
         padding-left: 0;
     }
 
+    // header
+    .header-frase {
+        width: 200px;
+        h1 {
+            font-size: $text-lg;
+
+        }
+    }
+
+    .btn-home {
+        width: 160px;
+        font-size: $text-sm;
+
+    }
+
+
     // texto bienvenida home
     .text-bienvenida {
         display: none;
     }
+
+
     /* destacados home */
     .dest-title {
         font-size: $text-xxl;
@@ -305,6 +329,30 @@
 /* 4to breakpoint */
 
 @media (width < 480px){
+    // nav
+    .links {
+        a {
+            font-size: $text-sm;
+        }
+    }
+    
+    
+    // header
+    .header-frase {
+        width: 180px;
+        padding: $spacing-1;
+        h1 {
+            font-size: $text-sm;
+            text-align: center;
+        }
+    }
+
+    .btn-home {
+        width: 140px;
+        font-size: $text-xs;
+        margin: 0 auto;
+    }
+
 
     /* destacados home */
     .dest-title {
@@ -409,15 +457,16 @@
     
     /* header main */
     .header-frase {
-        width: 200px;
+        width: 120px;
         h1{
-            font-size: $text-md;
+            font-size: $text-xs;
         }
     }
 
     .btn-home {
-        width: 150px;
-        font-size: $text-xs; 
+        width: 100px;
+        font-size: $text-xs;
+        text-align: center; 
     }
 
     /* redes main */
