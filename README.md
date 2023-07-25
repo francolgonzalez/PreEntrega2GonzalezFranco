@@ -43,6 +43,9 @@ https://wireframe.cc/mXbTFc - FAQ
 https://wireframe.cc/c1SvBy - CONTACTO
 
 
+
+
+
 Despues de crear la 8va maravilla del mundo con los wireframes, quise adaptar una paleta de colores que creeía que iba a ir bien por el estilo de la marca, pero no fue así, tenía mas pinta de arbol de navidad que de pagina web, por eso mismo no soy UI Designer 🫠
 
 ![Paleta de colores](./img/imagenes-readme/paleta.jpeg)
@@ -50,3 +53,24 @@ Despues de crear la 8va maravilla del mundo con los wireframes, quise adaptar un
 ![Primer pagina](./img/imagenes-readme/primer-pagina.jpeg)
 
 
+
+
+
+Despues de darme cuenta que esa pagina no iba con lo que tenia en mente, decidí ir por una idea mas minimalista, como me gusta a mí, y dejar de agregar cosas que no sumaban, así que me puse manos a la obra para rediseñar la pagina desde cero antes de la primer pre entrega 💻🦾
+
+Un par de horas de codeo mas tarde había conseguido un resultado que me dejaba bastante más contento que la version anterior de la página 😁
+
+![Primer pre entrega](./img/imagenes-readme/primer-preentrega.jpeg)
+
+
+
+
+A medida que fueron pasando las pre entregas, la pagina se fue adapatando cada vez mas a lo que quería, adquiria nuevos conocimientos y los plasmaba en la pagina, investigaba por mi cuenta y agregaba lo que mejor me parecia para el estilo de la misma 🤓. Terminando la ultima pre entrega, la tercera, la pagina habia quedado como quería 🥹, solamente quedaba pulir detalles minimos para dar como finalizado mi primer proyecto como Desarrolador Web 🦾🚀. 
+
+![Proyecto final](./img/imagenes-readme/proyecto-final.jpeg)
+
+
+
+
+
+Y así doy por terminado mi proyecto de e-commerce en CoderHouse, una muy buena experiencia que se debe a la excelente profesora que nos tocó, que mas alla de su habilidad para enseñar y plasmar sus conocimientos en cada clase, destaco lo excelente persona que es, la dedicación que tiene con su trabajo y la predisposicion para ayudar a quien lo necesite. Mas que agradecido con ella y con mis compañeros, agarrate javaScript porque voy por vos 😈.
