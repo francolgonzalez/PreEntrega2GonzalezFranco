@@ -4,7 +4,7 @@
 
 link repo: https://github.com/francolgonzalez/PreEntrega3GonzalezFranco
 
-link deployment: https://francolgonzalez.github.io/PreEntrega3GonzalezFranco/
+link deployment: https://francolgonzalez.github.io/ProyectoFinalGonzalezFranco/
 
 link del hosting: https://stanleyproject-francogonzalez.netlify.app/
 
