@@ -104,6 +104,10 @@
 
     .links {
         gap: 1.4rem;
+        display: block;
+        li {
+            margin: $spacing-1;
+        }
     }
 
     .navbar-toggler{
@@ -363,6 +367,16 @@
         font-size: $text-lg;
     }
 
+    .redes-img {
+        width: 125px;
+    }
+
+    .redes-grandes {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
 
     /* footer */
     .footer-info {
@@ -445,6 +459,39 @@
 
     .btn-enviar {
         width: 150px;
+    }
+}
+
+@media (width < 465px){
+    // ajuste parrafo faq
+    
+    .faq-parrafo {
+        width: 240px;
+        p {
+            font-size: $text-xs;
+        }
+    }
+
+}
+
+@media (width < 340px){
+    // ajuste imagenes redes home page
+    .redes-img {
+        width: 100px;
+    }
+
+    .redes-grandes {
+        gap: 5px;
+    }
+
+    
+    // ajuste parrafo faq
+    
+    .faq-parrafo {
+        width: 190px;
+        p {
+            font-size: $text-xs;
+        }
     }
 }
 
